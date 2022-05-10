@@ -18,7 +18,7 @@
     <div class=" flex text-gray-100 pt-10">
         <div class=" m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center" >
             <h1 class="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
-                Do You Wante to Become  A  Devoloper ? 
+                Starting Your Own Blog 
 
             </h1>
             <a 
@@ -49,18 +49,16 @@
 
         <div class="m-auto sm:m-auto text-laft w-4/5 block">
                 <h2 class="text-4xl font-extrabold text-gray-600">
-                String to be a better web deboloper ? 
+                How can Create a Blog ? 
 
                  </h2>
             <p class=" py-8 text-gray-500 text-xl">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-             Modi repellendus, consectetur sequi obcaecati amet aut sit qu
+            Choose a website template to showcase your blog.
              
 
             </p>
             <p class=" py-8 text-gray-600 text-l pb-9 ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt et, delectus natus molestiae quo sunt earum repellendus officiis ex quisquam hic tenetur! Ducimus itaque officiis, tempora quia minima obcaecati voluptatibus.
-
+               
 
             </p>
             <a href="/blog"
@@ -108,7 +106,9 @@
 
         </h2>
         <span class=" m-auto w-4/5 text-gray-500">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam repudiandae blanditiis vitae illo, porro eum est sed recusandae, harum pariatur qui! Repudiandae nobis sunt inventore debitis, temporibus odit eaque eligendi!
+          
+
+        NewSpace is The All in one  Platform to build a standard Blog 
         </span>
     </div>
 

@@ -1,64 +1,146 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+@extends('layouts.app')
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<style>
+    /* .background-image {
 
-## About Laravel
+    
+        background: url('../img/bc.jpg' alt="gfhgdt");
+        
+        /* background: url('https://cdn.pixabay.com/photo/2020/04/30/15/34/code-5113374_960_720.jpg');
+     */
+} */
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+</style>
+<!-- <link rel="stylesheet" href="/css/app.css"> -->
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+@section('content')
+<div class="background-image grid grid-cols-1 m-auto">
+    <div class=" flex text-gray-100 pt-10">
+        <div class=" m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center" >
+            <h1 class="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
+                Starting Your Own Blog 
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+            </h1>
+            <a 
+                
+                href="/blog"
+                class=" text-center bg-gray-50 text-gray-700 py-2 px-4 font-bold text-xl uppercase">
+            Rede More</a>
 
-## Learning Laravel
+        </div>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+    </div>
+    
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+</div>
+<div>
+       
 
-## Laravel Sponsors
+    </div>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-### Premium Partners
+    <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
+        <div>
+        <img src="../images/abc.jpg" alt="blog" width ="700" >
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+        </div>
+        
+        
 
-## Contributing
+        <div class="m-auto sm:m-auto text-laft w-4/5 block">
+                <h2 class="text-4xl font-extrabold text-gray-600">
+                How can Create a Blog ? 
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+                 </h2>
+            <p class=" py-8 text-gray-500 text-xl">
+            Choose a website template to showcase your blog.
+             
 
-## Code of Conduct
+            </p>
+            <p class=" py-8 text-gray-600 text-l pb-9 ">
+               
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+            </p>
+            <a href="/blog"
+         class="uppercase bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
+         Find Out More 
+         </a>
+     </div>
+    
+     
+    </div>
+    
+    <div class=" text-center p-15  bg-black text-white "> 
+        
 
-## Security Vulnerabilities
+        <h2 class= " pb-5  text-l text-2xl ">
+            i'm an expert in..
+        </h2>
+        <span class="font-extrabold block text-3xl py-1">
+            Ui Design 
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+        </span>
+        <span class="font-extrabold block text-3xl py-1">
+            Web Design 
 
-## License
+        </span>
+        
+        <span class="font-extrabold block text-3xl py-1">
+            Digital Markating 
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+        </span>
+        <span class="font-extrabold block text-3xl py-1">
+            Web Development
+
+        </span>
+
+    </div>
+
+    <div class="text-center py-15">
+        <span class=" uppercase text-sm text-cool-gray-400">
+                BLOG
+
+        </span>
+        <h2 class=" text-3xl font-bold py-10 ">
+            Recent Post
+
+        </h2>
+        <span class=" m-auto w-4/5 text-gray-500">
+          
+
+        NewSpace is The All in one  Platform to build a standard Blog 
+        </span>
+    </div>
+
+    <div class=" sm:grid grid-cols-2 w-4/5 m-auto">
+        <div class=" flex bg-yellow-700 text-gray-100 pt-10">
+            <div class ="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
+                <span class ="uppercase text-xs">
+                    PHP  
+
+                </span>
+
+                <h3 class=" text-xs font-bold p-10 ">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ad amet quo sunt, 
+                    labore est iusto quaerat dignissimos optio mollitia sapiente ex reiciendis veniam velit recusandae quos vitae fugit aut!  
+
+                </h3>
+
+                <a 
+                href="" 
+                class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5  rounded-3xl">
+                Find Out More
+                </a>
+
+
+                
+            </div>
+
+        </div>
+        <div>
+            <div><img src="../images/abc.jpg" alt="blog" width ="700" ></div>
+        </div>
+    </div>
+
+
+@endsection

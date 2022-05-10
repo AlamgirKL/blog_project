@@ -52,7 +52,7 @@
                 </h2>
 
                 <span class=" text-gray-500">
-                    by <span class="font-bold italic text-gray-800 "> code by Kabir
+                   <span class="font-bold italic text-gray-800 "> 
                         
                     </span>,{{date('jS M Y', strtotime($post->updated_at))}} 
 
